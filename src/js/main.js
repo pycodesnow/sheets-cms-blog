@@ -1,7 +1,7 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbzvgfJbJ_HbDaB0pfDSSZ8p22o-PRAPQF-91gMmhZ6BvpHwfhc/exec';
 	const API_KEY = 'AIzaSyBB6F0k9qB9ezrHxfTk5gGeECsWgmCfibw';
-	const CATEGORIES = ['augmented reality', 'computer vision', 'interactive video', 'creative coding'];
+	var CATEGORIES = ['augmented reality', 'computer vision', 'interactive video', 'creative coding'];
 
 	const state = {activePage: 1, activeCategory: null};
 	const page = {};
